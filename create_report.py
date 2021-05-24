@@ -1,6 +1,6 @@
 import pandas as pd
 from zerto_api_response import *
-from mail import *
+from mail_operations import *
 from report_date import *
 from settings import get_logo_path, get_report_folder_path, get_file_name_format
 from file_operations import create_folder_for_new_day
