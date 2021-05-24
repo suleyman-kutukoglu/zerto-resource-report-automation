@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Settings and credentials are private
+
+credentials.py
+settings.py
+
 # Distribution / packaging
 .Python
 build/
