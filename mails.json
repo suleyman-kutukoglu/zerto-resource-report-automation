@@ -1,0 +1,15 @@
+{
+  "contacts": {
+    "zorg-1": {
+      "mail": ["zorg-1@zorg-1.com"],
+      "cc": ["support@zorg-1.com", "info@xxx.com"]
+    },
+    "zorg-2": {
+      "mail": ["zorg1@zorg-1.com"],
+      "cc": ["support@zorg-2.com", "broadcast@yyy.com"]
+    }
+  }
+}
+
+
+
