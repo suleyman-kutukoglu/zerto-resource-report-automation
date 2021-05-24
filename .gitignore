@@ -8,8 +8,8 @@ __pycache__/
 
 # Settings and credentials are private
 
-# credentials.py
-# settings.py
+credentials.py
+settings.py
 
 # Distribution / packaging
 .Python
