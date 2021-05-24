@@ -28,7 +28,7 @@ def get_trigger_minute():
 
 
 def get_report_folder_path():
-    return reports_folder + "{}.{:02d}.{}".format(get_numeric_day_for_report(), get_numeric_month_for_report(),
+    return reports_folder + "\\{}.{:02d}.{}".format(get_numeric_day_for_report(), get_numeric_month_for_report(),
                                                   get_year_for_report())
 
 
