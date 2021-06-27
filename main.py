@@ -15,8 +15,12 @@ def main():
 
         print(f'Day: {day} Hour: {hour} Minute: {minute}')
 
-        if day == get_trigger_day() and hour == get_trigger_hour() and minute == get_trigger_minute():
+        if get_numeric_day() == get_trigger_day() and get_hour() == get_trigger_hour() and get_minute() == get_trigger_minute():
             start_creating_report(get_mail_mode())
+            time.sleep(120)
+
+        if get_hour() == 8 and get_minute() == 0:
+            start_creating_report(False)
             time.sleep(120)
 
         time.sleep(30)
